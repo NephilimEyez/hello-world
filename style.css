@@ -1,0 +1,38 @@
+/* * {
+    border: 2px solid rgb(93, 47, 201);
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 12px 12px;
+    background-color: #1f2937;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #939611;
+}
+
+main div {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+main div img {
+    width: 40%;
+}
