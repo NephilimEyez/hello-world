@@ -12,6 +12,10 @@ header {
     color: white;
 }
 
+#noInput {
+    color: red;
+}
+
 nav ul {
     display: flex;
     gap: 24px;
