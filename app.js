@@ -9,9 +9,8 @@ function greetUser() {
     if (theirName == null || undefined) {
         let tempName = prompt ("Are you sure you don't want a more personalized experience?");
         if (tempName == null || undefined) {
-            document.write('Hello, <p id="noInput">Dave.</p>'); 
+            document.write('<span>Hello,</span> <span id="noInput">Dave.</span>'); 
         } else {
-            console.log('not working')
             document.write('Hello, ' + tempName + '.');
         }
              
