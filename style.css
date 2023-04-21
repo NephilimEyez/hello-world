@@ -12,7 +12,16 @@ header {
     color: white;
 }
 
+#wrapper {
+    font-size: 22pt;
+    font-weight: bold;
+    display: flex;
+    flex-shrink: 1;
+}
+
 #noInput {
+    margin-top: 0px;
+    margin-left: .2em;
     color: red;
 }
 
