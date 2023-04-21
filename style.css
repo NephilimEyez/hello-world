@@ -50,6 +50,14 @@ main div {
     padding: 2em;
 }
 
+#starRating {
+    justify-content: center;
+}
+
+#starRating img {
+    width: 50px;
+}
+
 main div img {
     width: 30%;
 }
