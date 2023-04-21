@@ -20,7 +20,10 @@ function greetUser() {
 }
 
 function star() {
-    let raiting = prompt ("How many stars betwee 1-5 would you rate my site.")
+    let raiting = prompt ("How many stars betwee 1-5 would you rate my site.");
+    while (raiting == null || raiting == 'undefined') {
+        raiting = prompt ("we're really going to need a number.");
+    }
     if (raiting > 5) {
         raiting = 5;
     } else if (raiting <= 0){ 
