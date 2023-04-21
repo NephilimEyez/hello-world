@@ -25,6 +25,15 @@ header {
     color: red;
 }
 
+#leftHeader {
+    margin-left: 2em;
+}
+
+#starRating {
+    align-self: center;
+    margin-right: 2em;
+}
+
 nav ul {
     display: flex;
     gap: 24px;
@@ -37,6 +46,11 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #939611;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
 }
 
 main {
